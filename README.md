@@ -1,7 +1,7 @@
 # 🔋 Lithium Battery EIS Classification and Regression (2024)
 
 ## 📌 Project Overview
-This project applies **machine learning models** to classify and predict key electrochemical properties of **Lithium-ion batteries (Li-ion) using Electrochemical Impedance Spectroscopy (EIS) data**. 
+This project applies **machine learning models** to classify and predict qualkity and lifecycle as a proxy for Battery state of Health (SoH) and state of charge (SoC) of **Lithium-ion batteries (Li-ion) using Electrochemical Impedance Spectroscopy (EIS) data**. 
 
 The goal is to:
 1. **Classify battery health states** based on EIS measurements 
@@ -22,7 +22,7 @@ This project includes **classification and regression** tasks using different mo
 ### **1️⃣ Classification Task**
 - **Goal:** Categorize batteries into different health states.
 - **Model Used:**  
-  ✅ **Support Vector Machine (SVM)** – Achieved **100% accuracy** in classifying battery health states.
+  ✅ **Support Vector Machine (SVM)** – Achieved **100% accuracy** in classifying battery health states by using 20kHz frequency.
 
 ### **2️⃣ Regression Task**
 - **Goal:** Predict the **Remaining Useful Lifecycle (RUL)** of lithium-ion batteries.  
